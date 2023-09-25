@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>반응형 폼 요소</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login_wrapper">
+        <div class="image_box">
+          <img src="./Cat.jpg" alt="" />
+        </div>
+
+        <div class="login_box">
+          <h2>로그인</h2>
+          <span>이미 아이디가 있으신가요?<a href="#">로그인</a></span>
+          <a href="#" class="google"> 구글로 접속하기 </a>
+          <a href="#" class="facebook"> 페이스북으로 접속하기 </a>
+          <a href="#" class="naver"> 네이버로 접속하기 </a>
+          <p class="or">또는</p>
+
+          <form>
+            <label for="email">이메일</label>
+            <input
+              type="email"
+              placeholder="이메일을 입력해주세요"
+              class="input_email"
+            />
+            <label for="">비밀번호</label>
+            <input
+              type="password"
+              placeholder="비밀번호를 입력해주세요"
+              class="input_password"
+            />
+
+            <div class="checkbox_wrapper">
+              <input type="checkbox" checked />
+              <span
+                >로그인은 <a href="#">개인 정보 보호 정책</a>에 동의하는 것을
+                의미합니다.</span
+              >
+            </div>
+
+            <button type="submit" class="btn_login">로그인</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2e4374;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  font-family: "Pretendard-Regular";
+}
+.login_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+.image_box,
+.login_box {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.image_box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.login_box {
+  background-color: white;
+  padding: 40px 8%;
+  color: #333;
+  min-width: 250px;
+}
+.login_box h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.login_box span {
+  font-size: 12px;
+}
+.login_box span a {
+  color: royalblue;
+  font-weight: 500;
+}
+.google,
+.facebook,
+.naver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  color: #555;
+  font-size: 13px;
+  margin: 20px 0;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+.google {
+  background-image: url(./images/Google.png);
+}
+.facebook {
+  background-image: url(./images/facebook.png);
+}
+.naver {
+  background-image: url(./images/naver.png);
+}
+.or {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.input_email,
+.input_password {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 5px 0 10px;
+}
+form label {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+}
+.checkbox_wrapper input {
+  margin-right: 6px;
+  cursor: pointer;
+}
+.btn_login {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid royalblue;
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 18px 0 10px;
+  background-color: royalblue;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
